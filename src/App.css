@@ -1,0 +1,139 @@
+/* Style for the overall app container */
+.app {
+  background-color: #b0e0e6;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the delete-all button */
+.delete-all-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #f0f0f0;
+}
+
+/* Style for the container section */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the actions section */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the add task input field */
+.actions .add-task-input {
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for the search input field */
+.actions .search-box {
+  width: 70%; /* increase the width */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for the add task button */
+.actions .add-task-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* increase the border-radius */
+  padding: 10px 20px; /* increase the padding */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the search box */
+.actions .search-wrapper {
+  margin-left: 20px;
+}
+
+/* Style for the lists section */
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style for the to-do and done lists */
+.todo-list-wrapper {
+  width: 48%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.todo-list-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Style for the individual tasks in the lists */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.task .task-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.task .task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.task .task-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* increase the border-radius */
+  padding: 8px 16px; /* increase the padding */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task .task-actions button:hover {
+  opacity: 0.8;
+}
